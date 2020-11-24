@@ -1,0 +1,4 @@
+Testowane słowo ABCabcDEF
+Za - W=1 tylko jeden prazek na f=2Hz
+Zf - fmin=3Hz fmax=4Hz   W=1 - najszersze pasmo
+Zp = fmin=1.5Hz fmax=2.2Hz W=0.7 - szersze pasmo niz Za

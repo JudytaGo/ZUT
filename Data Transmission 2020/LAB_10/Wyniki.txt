@@ -1,0 +1,23 @@
+Wyniki dla Litery "C"
+
+
+Kod Wejsciowy
+01000011
+Kod Hamminga:
+10011001000011
+Zdekodowany Hamming:
+01000011
+Kod SECDEC:
+1001100110000111
+Zdekodowany SECDEC:
+01000011
+Zanegowano bit 4:
+1001110110000111
+Zdekodowany SECDEC po zanegowaniu 1 bita:
+Proba naprawy
+01000011
+Zanegowano bit 3 i 4:
+1001010110000111
+Zdekodowany SECDEC po zanegowaniu 2 bitow:
+Proba naprawy
+Po probie naprawy dalej wystapeju blad

@@ -1,0 +1,8 @@
+
+sigMA1 fmin = fmax = 200Hz W=1 - jeden prazek
+sigMP1 fmin = fmax = 200Hz W=1 - jeden prazek
+sigMA2 fmin = 197, fmax = 203, W = 6
+sigMP2 fmin = 195, fmax = 207, W = 12
+sigMA3 fmin = 197, fmax = 203, W = 6 
+sigMP3 fmin = 1694, fmax = 1840, W = 146 
+
