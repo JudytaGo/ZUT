@@ -1,0 +1,8 @@
+﻿  Lab03.cpp
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(479,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(510,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(516,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(527,23): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(531,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Connect4\Lab03.cpp(540,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Connect4.vcxproj -> C:\Users\judyt\OneDrive\Pulpit\ZUT\SEMESTR V\SI\Connect4\Debug\Connect4.exe
