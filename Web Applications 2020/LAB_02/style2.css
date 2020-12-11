@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 50px;
+	padding: 20px;
+	text-decoration: overline;
+	border: dashed;
+	border-color: white;
+}
+
+h2{
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 36px;
+	text-decoration: overline;
+	border: dashed;
+	border-color: white;
+}
+
+h3{
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 24px;
+}
+
+p{
+	color:white;
+	font-family: Rockwell;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg");
+    background-repeat: repeat;
+}
+
+footer{
+	color:white;
+}
+.footer {
+	font-family: Consolas;
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-decoration-style: dotted;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+.button{
+	background-color: black;
+	font-family: Impact;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: underline;
+  	display: inline-block;
+  	font-size: 16px;
+	border-radius: 50%;
+	border: 2px solid white;
+	
+}
+
+.imageh1{
+	filter: grayscale(100%);
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+.image{
+	opacity: 0.5;
+    width: 30%;
+	float: left;
+}
+.row::after {
+	color: white;
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: center;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: square;
+	color: white;
+	font-family: Rockwell;
+  margin: auto;
+  padding: auto;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+}
+
+.menu li:hover {
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

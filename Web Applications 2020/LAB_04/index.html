@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../bootstrap.css">
+<title>Dokument bez tytułu</title>
+</head>
+
+<body>
+	<div class="card-header">
+	<h1>To-Do List</h1>
+	</div>
+	
+	<div class="container">
+	
+	<form action="#">
+		<div class="input-group mt-3 p-2">
+		<input type="text" class="form-control" placeholder="search" aria-label="new task" aria-describedby="button">
+			<div class="input-group-append">
+			<button class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+			</div>
+		</div>
+		</form>
+		<ul id="list" class="mb-5 p-2"></ul>
+		
+		<hr>
+		<form action="#">
+		<div class="input-group mb-3">
+			<input type="text" class="form-control" placeholder="new task" aria-label="new task" aria-describedby="button">
+			<input type="date" class="form-control" id="tem=date" aria-label="new task's date">
+			<div class="input-group-append">
+			<button class="btn btn-outline-secondary" type="button" id="button-add">Add task</button>
+			</div>
+			</div>
+		<div id="error-message"></div>
+		</form>
+		
+	</div>
+	<script src="todo.js"></script>
+</body>
+</html>

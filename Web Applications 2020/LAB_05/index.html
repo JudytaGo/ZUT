@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+
+    <style>
+        #map {
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+        }
+
+        #rasterMap {
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+        }
+        
+        #getPuzzle {
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <button id="getLocation">Get Current Location</button>
+    <button id="saveButton">Save Raster Map</button>
+    <button id="getNewPuzzle">Create Puzzle</button>
+
+    <br>
+
+    <canvas id="rasterMap"></canvas>
+    
+    <canvas id="puzzleMap"></canvas>
+
+    <script src="script1.js"></script>
+</body>
+</html>
